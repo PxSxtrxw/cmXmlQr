@@ -20,7 +20,7 @@ npm install facturacionelectronicapy-qrgen
 npm install http
 ```
 ```bash
-npm install winstone
+npm install winston
 ```
 
 ## Configuración
