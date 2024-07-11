@@ -40,7 +40,7 @@ El servidor se iniciará en http://localhost:3002.
 
 ## Logger
 
-el servidor guardara la actividad de errores en `error.log` y la informacion de toda la actividad del servidor en `info.log`
+el servidor guardara los loggers en una carpte llamada logs y la actividad de errores en `errorLogger.log` y la informacion de toda la actividad del servidor en `eventLogger.log`
 
 ## Funcionamiento del Servidor HTTP
 Al momento de ejecutar el archivo `server.js` se creara un servidor que estara escuchando una estructura XML anteriormente firmada como parametro en una solicitud POST y el servidor le dara una estructura XML con codigo Qr integrado
