@@ -20,7 +20,10 @@ npm install facturacionelectronicapy-qrgen
 npm install http
 ```
 ```bash
-npm install winston
+npm install winston 
+```
+```bash
+npm install  xml-js
 ```
 
 ## Configuración
