@@ -109,5 +109,5 @@ server.listen(PORT, (err) => {
         errorLogger.error(`Error al iniciar el servidor: ${err.message}`);
         return console.error('Error al iniciar el servidor:', err);
     }
-    eventLogger.info(`Servidor escuchando en el puerto ${PORT}`);
+    eventLogger.info(`Servidor iniciado en http://localhost:${port}`);
 });
